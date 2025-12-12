@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Software Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475') no-repeat center/cover fixed;
+      color: #fff;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.75);
+      min-height: 100vh;
+      padding: 50px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 { text-align: center; margin-bottom: 20px; }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #00ffff;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: none;
+    }
+
+    form button {
+      width: 100%;
+      padding: 12px;
+      background: #00ffff;
+      color: #000;
+      border: none;
+      font-size: 16px;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+<div class="overlay">
+  <div class="container">
+
+    <h1>Lesetja Faith Magoai</h1>
+    <p style="text-align:center;">Software Developer Graduate</p>
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a software development graduate with a Diploma in Software Development. 
+        I enjoy building applications and solving real-world problems through code.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>My Projects</h2>
+
+      <h3>Student-Grade-Calculator</h3>
+      <p>A software application or digital tool that helps students and teachers calculate academic results quickly and accurately. It allows users to enter scores for assignments, quizzes, tests, and exams, then automatically computes the total marks, average score, percentage, and final grade based on a predefined grading system</p>
+      <a class="button"  href="https://github.com/FaithM26/Student-Grade-Calculator-" download>Download/ View Project</a>
+      View Project on GitHub
+
+      <h3 style="margin-top:15px;">Max Handy Man2</h3>
+      <p>A web application that allows users to quickly and easily schedule professional repair and maintenance services for their homes or offices. The app connects customers with skilled handymen who can handle tasks such as plumbing, electrical repairs, carpentry, painting, and appliance fixes.</p>
+      <a class="button"  href="https://github.com/FaithM26/MaxHandyMan2" download>Download/ View Project</a>
+      View Project on GitHub
+    </div>
+
+    <div class="card">
+      <h2>My Resume</h2>
+      <a class="button" href="resume.pdf" download>Download My Resume</a>
+    </div>
+
+    <div class="card">
+      <h2>Location</h2>
+      <p>Polokwane, South Africa</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>© 2025 Faith Magoai | All rights reserved</p>
+    </footer>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+
